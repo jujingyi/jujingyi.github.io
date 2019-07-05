@@ -1,0 +1,72 @@
+/* CSS Document */
+*{ padding:0; margin:0; font-family: "思源黑体",Arial,Helvetica,sans-serif; font-style: normal;}
+ul,li,dl,dd,dt{ list-style: none;}
+img{ border:none;}
+a{ text-decoration:none; color:#f8e0a1;}
+
+.red{ color:red;}
+
+body{ font-size:30px; color:#000000; min-width:1200px;}  
+
+.ls5{ letter-spacing:5px;}/*字间距5像素*/
+.fbold{ font-weight:bold;}
+
+h1{ font-weight:100; font-size:55px;}
+h1 span{ color:#e3db0c}
+
+.mleft{float: left;}
+.mright{float: right;}
+
+.clear:after{ clear: both; content: "."; display: block; height: 0; visibility: hidden;}
+.clear{ height:1%;}
+
+.top_qu{ line-height:30px; float:right;  }
+.top_qu a{ text-decoration:none;  font-size:16px; }
+
+.body1{background: url(../images/top_bg.jpg) center top no-repeat; height:944px; margin:0 auto; position:relative;} 
+.top1{margin:0 auto;width:1200px; padding-top:1px; position:relative; z-index: 2}
+#scene1{position: absolute;width:360px; height: 800px; overflow: hidden; top:0; left: 50%; margin-left: -959px;}
+#scene1 li{position: absolute; top: -220px; left: -370px;}
+
+#scene2{position: absolute;width:360px; height: 800px; overflow: hidden; top:0; left: 50%; margin-left: 591px;}
+#scene2 li{position: absolute; top: -450px; left: -1170px;}
+ 
+.body2{background: url(../images/body2.jpg) center top no-repeat; height: 768px; padding-top:1px;margin:20px auto 0; min-width: 1200px; position:relative;}  
+.video{background: url(../images/video.jpg) no-repeat;width: 639px; height: 360px; padding-right: 561px; margin: 445px auto 0; }
+
+.body3{background: url(../images/body3.jpg) center top no-repeat; height: 837px; padding-top:1px;margin:20px auto 0; min-width: 1200px; position:relative; overflow: hidden;}
+#scene3{position: absolute;width:320px; height: 838px; overflow: hidden; top:0; left: 50%; margin-left: -959px;}
+#scene3 li{position: absolute;  top: -120px; left: -160px;}
+
+#scene4{position: absolute;width:881px; height: 838px; overflow: hidden; top:0; left: 50%; margin-left: 79px;}
+#scene4 li{position: absolute; top: -120px; left: -495px;}
+
+.body4{background: url(../images/body4_bg.jpg) center top no-repeat; padding-top:1px;margin:0px auto 0; min-width: 1200px; position:relative;}
+.pay_time{background: url(../images/pay_time.png) center top no-repeat;width: 748px;height: 557px; margin: 80px auto 0;}
+.cp_con{position: relative; width:1200px; margin: 80px auto 0; text-align: center; position: relative;}
+.cp_bt{background: url(../images/song_bt.png) center top no-repeat;width: 97px;height: 283px; position: absolute; top:30px; left: 0;}
+.cp_con .cp_item{background: url(../images/cp_item_bg.jpg) center bottom no-repeat;width: 360px; display: inline-block; margin: 0 40px;}
+.cp_con .cp_item img{height: 360px; margin-bottom: 0px;}
+.cp_con .cp_item .sbt{font-size: 24px;}
+.cp_con .cp_item .remark{font-size: 18px; color: #caa598; padding: 5px 0;}
+.cp_con .cp_item .price{font-size: 48px;}
+.cp_con .cp_item .price:before{font-size:24px; content: "￥"; display: inline-block;}
+.cp_con .cp_item .price .unit{font-size: 24px;}
+.cp_con .cp_item .pay_btn{background: url(../images/pay_btn.jpg);width: 290px; height: 54px; line-height: 54px; font-size: 22px; color: #fff; display: block;margin: 15px auto 20px;}
+
+
+/*layer弹出样式去掉背景色*/
+body .lay_nobg{background-color:transparent; border: none; box-shadow:none;}
+body .lay_fontc .layui-layer-content{ color:#151313; border-radius:10px; padding:5px; width:590px; font-size:16px; line-height:25px;}
+
+.footer_con{background: url(../images/foot_bg.jpg) center 10px no-repeat; height: 634px; min-width: 1200px; margin: 80px auto 20px; position: relative;}
+.f_bq{ padding: 30px 0 25px; font-size: 18px; text-align: center;}
+
+#scene5{position: absolute;width:360px; height: 514px; overflow: hidden; top:10px; left: 50%; margin-left: -959px;}
+#scene5 li{position: absolute;  top: -680px; left: -1600px;}
+
+#scene6{position: absolute;width:360px; height: 514px; overflow: hidden; top:10px; left: 50%; margin-left: 591px;}
+#scene6 li{position: absolute; top: -300px; left: -30px;}
+
+#scene7{position: absolute;width:1061px; height: 514px; overflow: hidden; top:80px; left: 50%; margin-left: -501px;}
+#scene7 li{position: absolute; top: -780px; left: -30px;}

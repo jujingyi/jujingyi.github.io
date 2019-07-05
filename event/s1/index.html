@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>鞠婧祎官方网站</title>
+</head>
+<body>
+    <h1>正在自动跳转对应页面，如无法跳转请点击相应链接</h1>
+    <h2><a href="web/index.html">网页版</a></h2>
+    <h2><a href="wx/index.html">微信版</a></h2>
+</body>
+</html>
+
+<script type="text/javascript">
+if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+    window.location.href = "wx/index.html";
+}else{
+	window.location.href = "web/index.html"
+}
+
+window.onload = function(){
+    if(isWeiXin()){
+        window.location.href="wx/index.html";
+    } else {
+        window.location.href="web/index.html";
+    }
+}
+
+function isWeiXin(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+        return true;
+    } else {
+        return false;
+    }
+}
+</script>
